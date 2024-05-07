@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    height: 100dvh;
+    background-color: #401d19;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    place-content: center;
+    gap: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.box{
+    width: 180px;
+    height: 180px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+    transition: .5s ease all;
+
+}
+.months, .day, .hours{
+    font-size: 80px;
+    color: #f96726;
+}
+.box p{
+    font-size: 30px;
+    color: #eccfc5;
+}
+
+
